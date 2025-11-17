@@ -1,0 +1,1 @@
+print("My first Python code in the first session!")
