@@ -2,22 +2,22 @@ import json
 
 
 #Simple JSON Data
-# data = ''' {
-#     "name" : "ABCD",
-#     "phone" : {
-#         "type" : "intl",
-#         "number" : "12345"
-#     },
-#     "email" : {
-#         "hide" : "yes"
-#     }
-# }
-# '''
+data = ''' {
+    "name" : "ABCD",
+    "phone" : {
+        "type" : "intl",
+        "number" : "12345"
+    },
+    "email" : {
+        "hide" : "yes"
+    }
+}
+'''
 
-# info = json.loads(data)
-# print("Name:", info['name'])
-# print("Phone Number:", info['phone']['number'])
-# print("Email Attribute:", info['email']['hide'])
+info = json.loads(data)
+print("Name:", info['name'])
+print("Phone Number:", info['phone']['number'])
+print("Email Attribute:", info['email']['hide'])
 
 #Nested JSON Data
 

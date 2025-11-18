@@ -26,18 +26,18 @@ for count in range(0, count+1):
 
 
 
-# count = 7
-# position = 18
+count = 7
+position = 18
 
 #Open URL and read HTML data usinf beautifulsoup
-#url = 'http://py4e-data.dr-chuck.net/known_by_Devayani.html'
+url = 'http://py4e-data.dr-chuck.net/known_by_Devayani.html'
 
 #Get the anchor tags and read the content
-# htmldata = urlopen('http://py4e-data.dr-chuck.net/known_by_Butchi.html').read()
-# soup = BeautifulSoup(htmldata, 'html.parser')
-# tags = soup('a')
-# for tag in tags :
-#     print(tag.get('href', None))
+htmldata = urlopen('http://py4e-data.dr-chuck.net/known_by_Butchi.html').read()
+soup = BeautifulSoup(htmldata, 'html.parser')
+tags = soup('a')
+for tag in tags :
+    print(tag.get('href', None))
 
     
 

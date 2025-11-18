@@ -1,16 +1,16 @@
 import xml.etree.ElementTree as ET
 
 # Simple XML Data
-# data = ''' <person>
-#     <name>Swati</name>
-#     <phone type="intl">+1234567</phone>
-#     <email hide="yes"/>
-#   </person>'''
+data = ''' <person>
+    <name>Swati</name>
+    <phone type="intl">+1234567</phone>
+    <email hide="yes"/>
+  </person>'''
 
-# tree = ET.fromstring(data)
-# print('Name:', tree.find('name').text)
-# print('Phone:', tree.find('phone').text)
-# print('Email Attr:', tree.find('email').get('hide')) 
+tree = ET.fromstring(data)
+print('Name:', tree.find('name').text)
+print('Phone:', tree.find('phone').text)
+print('Email Attr:', tree.find('email').get('hide')) 
 
 
 
