@@ -1,8 +1,8 @@
 class FirstCounterClassInPython:
-    def __init__(self):
+    def __init__(self):  # constructor
         self.x = 0
 
-    def counter(self) :
+    def counter(self):
         self.x = self.x + 1
         print('My Counter now is:', self.x)
 
